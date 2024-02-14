@@ -1,0 +1,30 @@
+Hooks -> Realeased in V16.8
+
+In ReactJs, a "hook" refers to a special function that allows you to use state
+and other React features in functional components.
+
+1. useState
+2. useEffect
+3. useContext
+4. useReducer
+
+2. useEffect: It is a hook in React that enables you to perform side effects
+in functionl components.
+
+Side effects including tasks like data fetching, subscriptions, manually changing the 
+DOM, and other operations that involve interactions with the external world.
+
+useEffect is called after the initial render and after every update.
+
+4. useReducer:It is a react hook used for state management.
+- Alternative of useState() hook.
+- Preferable for complex state management logic and also optimize performance
+
+Syntax:
+const [state, dispatch] = useReducer(reducer, initialstate);
+ 
+Note: reducer is a function accepts two parameter.
+newState = reducer(currentState, action)
+
+
+ 
